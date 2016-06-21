@@ -9,14 +9,16 @@
 // @noframes
 // ==/UserScript==
 
+var speed = 2.0;
+
 var count = 0;
 var id = setInterval(function() {
-  if ( unsafeWindow.document.getElementsByClassName("video-stream html5-main-video").length > 0 ) {
-    unsafeWindow.document.getElementsByClassName("video-stream html5-main-video")[0].playbackRate = 2.0;
-    clearInterval(id); 
-    return;
-  }
-  
-  count++;
-  if (count > 50) { clearInterval(id); return; }
+	if ( unsafeWindow.document.getElementsByClassName("video-stream html5-main-video").length > 0 ) {
+	  unsafeWindow.document.getElementsByClassName("video-stream html5-main-video")[0].playbackRate = speed;
+		clearInterval(id); 
+		return;
+	}
+	
+	count++;
+	if (count > 50) { clearInterval(id); return; }
 }, 300);
