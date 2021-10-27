@@ -6,7 +6,7 @@
 
 Перетаскиваете ссылки на панель закладок, кликаете по ним — скорость воспроизведения меняется.
 
-[Страница со списком ссылок](https://ghcdn.rawgit.org/pongo/YouTube-Auto-Speed/master/bookmarklets.htm)
+[Страница со списком ссылок](https://rawcdn.githack.com/pongo/YouTube-Auto-Speed/master/bookmarklets.htm)
 
 ## Userscript
 
